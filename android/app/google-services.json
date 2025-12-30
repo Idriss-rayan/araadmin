@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "749134591992",
+    "project_id": "ara-service",
+    "storage_bucket": "ara-service.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749134591992:android:53ddaed3c02fe6bc9b880d",
+        "android_client_info": {
+          "package_name": "com.example.araadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749134591992-uaa1176pggui7pnd82jsc87qfsumt99j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdcuf5_VrZj1DgJf9fQ17TohxW1aEqY7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749134591992-uaa1176pggui7pnd82jsc87qfsumt99j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "749134591992-93qs9shiq62u686q8oaatgvu3n95umvk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.araservice"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749134591992:android:62f43519ad0f368d9b880d",
+        "android_client_info": {
+          "package_name": "com.example.araservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749134591992-vjdog3pip9gqkh4b038q00p2retvkj6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.araservice",
+            "certificate_hash": "267b03127604f71758d88e7911ffc09eaf52321a"
+          }
+        },
+        {
+          "client_id": "749134591992-uaa1176pggui7pnd82jsc87qfsumt99j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdcuf5_VrZj1DgJf9fQ17TohxW1aEqY7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749134591992-uaa1176pggui7pnd82jsc87qfsumt99j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "749134591992-93qs9shiq62u686q8oaatgvu3n95umvk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.araservice"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
