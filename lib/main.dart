@@ -291,7 +291,7 @@ class _AuthScreenState extends State<AuthScreen> {
       // Vérifier les droits admin
       final isAdmin = await _adminService.isAdmin();
 
-      if (!isAdmin) {
+      if (isAdmin) {
         await FirebaseAuth.instance.signOut();
         throw Exception('Accès non autorisé. Admin uniquement.');
       }
