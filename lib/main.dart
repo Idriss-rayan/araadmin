@@ -410,6 +410,7 @@ class _AuthScreenState extends State<AuthScreen> {
                         : const Text(
                             'Se connecter',
                             style: TextStyle(
+                              color: Colors.white,
                               fontSize: 16,
                               fontWeight: FontWeight.w600,
                             ),
@@ -540,7 +541,7 @@ class StatCard extends StatelessWidget {
           border: Border.all(color: Colors.grey.shade100),
         ),
         child: Padding(
-          padding: const EdgeInsets.all(20),
+          padding: const EdgeInsets.all(10),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -704,7 +705,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       icon: Icons.attach_money_rounded,
                       title: 'Revenus (mois)',
                       value:
-                          '${(stats['monthlyRevenue'] as double).toStringAsFixed(2)}€',
+                          '${(stats['monthlyRevenue'] as double).toStringAsFixed(2)} FCFA'
+                              .toLowerCase(),
                       color: const Color(0xFF9C27B0),
                     ),
                     StatCard(
