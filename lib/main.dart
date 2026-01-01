@@ -188,7 +188,7 @@ class AdminService {
               'customerName': data['customerName'] ?? 'Sans nom',
               'customerPhone': data['customerPhone'] ?? '',
               'items': data['items'] ?? [],
-              'total': (data['total'] as num).toDouble(),
+              'total': (data['total'] ?? 0).toDouble(),
               'date': (data['date'] as Timestamp).toDate(),
               'status': data['status'] ?? 'En attente',
               'serviceType': data['serviceType'] ?? 'shopping',
