@@ -1,3 +1,4 @@
+import 'package:araadmin/home/categories_page.dart';
 import 'package:araadmin/home/dashboard_page.dart';
 import 'package:flutter/material.dart';
 
@@ -69,20 +70,6 @@ class _HomePageState extends State<HomePage> {
 /* =======================
    Pages
    ======================= */
-
-class CategoriesPage extends StatelessWidget {
-  const CategoriesPage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return const Center(
-      child: Text(
-        'Categories',
-        style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
-      ),
-    );
-  }
-}
 
 class UsersPage extends StatelessWidget {
   const UsersPage({Key? key}) : super(key: key);
