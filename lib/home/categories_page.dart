@@ -1,5 +1,6 @@
 import 'package:araadmin/home/fashion.dart';
 import 'package:araadmin/home/pressing.dart';
+import 'package:araadmin/home/shopping.dart';
 import 'package:flutter/material.dart';
 
 class CategoriesPage extends StatelessWidget {
@@ -12,6 +13,16 @@ class CategoriesPage extends StatelessWidget {
       'type': 'pressing',
     },
     {'name': 'Mode et Confection', 'icon': Icons.checkroom, 'type': 'fashion'},
+    {
+      'name': 'shopping',
+      'icon': Icons.shopping_bag_outlined,
+      'type': 'shopping',
+    },
+    {
+      'name': 'produits ménagers',
+      'icon': Icons.production_quantity_limits_rounded,
+      'type': 'produits ménagers',
+    },
   ];
 
   @override
@@ -49,13 +60,20 @@ class CategoriesPage extends StatelessWidget {
                           PressingAdminPage(categoryName: category['name']),
                     ),
                   );
-                } else {
+                }
+                if (category['type'] == 'fashion') {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
                       builder: (_) =>
                           FashionAdminPage(categoryName: category['name']),
                     ),
+                  );
+                }
+                if (category['type'] == 'shopping') {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (_) => ShoppingAdminPage()),
                   );
                 }
               },
